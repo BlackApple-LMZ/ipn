@@ -1,0 +1,9 @@
+<library path="lib/libipn_pointcloud">
+  <class name="ipn_pointcloud/IpnPointcloudNodelet"
+         type="ipn_pointcloud::IpnPointcloudNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+      transform points from packets, publishing PointCloud2.
+    </description>
+  </class>
+</library>
